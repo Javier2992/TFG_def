@@ -26,7 +26,7 @@ public class Perfil extends AppCompatActivity {
         informacion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                
+
             }
         });
     }
