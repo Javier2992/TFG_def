@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="283dp"
+        android:layout_height="76dp"
+        android:layout_margin="30dp"
+        android:text="INICIO DE SESIÓN"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/txtCorreoElectronico"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:layout_marginStart="70dp"
+        android:ems="10"
+        android:hint="Correo Electrónico"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/txtContrasenya"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="201dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="150dp"
+        android:text="¿No tienes cuenta todavia?" />
+
+    <Button
+        android:id="@+id/btnRegistrate"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#FF9800"
+        android:text="Regístrate" />
+
+    <Button
+        android:id="@+id/btnIniciarSesion"
+        android:layout_width="237dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#FF9800"
+        android:text="INICIAR SESIÓN" />
+
+</LinearLayout>

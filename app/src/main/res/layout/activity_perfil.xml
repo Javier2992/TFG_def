@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Perfil">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnVolverPerfil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:contentDescription="volver"
+            android:src="@android:drawable/ic_menu_revert" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:src="@tools:sample/avatars"
+            tools:srcCompat="@drawable/icons8_male_user_50" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:text="MI PERFIL"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="251dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="100dp"
+        android:layout_weight="1"
+        android:backgroundTint="#FF9800"
+        android:gravity="center"
+        android:text="Información de la cuenta" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#FF9800"
+        android:gravity="center"
+        android:text="Inivitar a un amigo" />
+</LinearLayout>

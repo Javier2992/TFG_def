@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="HOME"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnPlanesSubscripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:width="300dp"
+        android:backgroundTint="#FF9800"
+        android:text="PLANES DE SUBSCRIPCIÓN" />
+
+    <Button
+        android:id="@+id/btnMiPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:width="300dp"
+        android:backgroundTint="#FF9800"
+        android:text="MI PERFIL" />
+
+    <Button
+        android:id="@+id/btnPlanesEntrenamiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:width="300dp"
+        android:backgroundTint="#FF9800"
+        android:text="PLANES DE ENTRENAMIENTO" />
+
+    <Button
+        android:id="@+id/btnDietaRecorte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:width="300dp"
+        android:backgroundTint="#FF9800"
+        android:text="DIETA DE RECORTE" />
+
+    <Button
+        android:id="@+id/btnActividades"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:width="300dp"
+        android:backgroundTint="#FF9800"
+        android:text="ACTIVIDADES" />
+
+    <Button
+        android:id="@+id/btnAcceso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:width="300dp"
+        android:backgroundTint="#FF9800"
+        android:text="ACCESO" />
+</LinearLayout>
