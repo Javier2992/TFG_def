@@ -27,19 +27,25 @@ public class Home extends AppCompatActivity {
         miPerfil.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(Home.this,
+                        Perfil.class);
+                startActivity(intent);
             }
         });
         planesEntrenamiento.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(Home.this,
+                        PlanesEntrenamiento.class);
+                startActivity(intent);
             }
         });
         dietaRecorte.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(Home.this,
+                        DietaRecorte.class);
+                startActivity(intent);
             }
         });
         actividades.setOnClickListener(new View.OnClickListener() {
@@ -58,9 +64,9 @@ public class Home extends AppCompatActivity {
     }
 
     private void inicializarVariables() {
-        planesSubscripcion = findViewById(R.id.btnPlanesSubscripcion);
-        miPerfil = findViewById(R.id.btnMiPerfil);
-        planesEntrenamiento = findViewById(R.id.btnPlanesEntrenamiento);
+        planesSubscripcion = findViewById(R.id.btnPlanA);
+        miPerfil = findViewById(R.id.btnPlanB);
+        planesEntrenamiento = findViewById(R.id.btnPlanC);
         dietaRecorte = findViewById(R.id.btnDietaRecorte);
         actividades = findViewById(R.id.btnActividades);
         acceso = findViewById(R.id.btnAcceso);

@@ -6,33 +6,41 @@
     android:layout_height="match_parent"
     android:background="#1B1B1B"
     android:orientation="vertical"
-    tools:context=".Home">
+    tools:context=".PlanesEntrenamiento">
+
+    <ImageButton
+        android:id="@+id/btnVolverEntrenamiento"
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:backgroundTint="#1B1B1B"
+        android:contentDescription="volver"
+        android:src="@android:drawable/ic_menu_revert" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="81dp"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <ImageView
-            android:id="@+id/imageView9"
+            android:id="@+id/imageView13"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_marginLeft="100dp"
-            android:layout_marginTop="20dp"
-            app:srcCompat="@drawable/icons8_home_50" />
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="5dp"
+            app:srcCompat="@drawable/icons8_weightlifting_30" />
 
         <TextView
             android:id="@+id/textView4"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_width="271dp"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="20dp"
             android:fontFamily="@font/days_one"
-            android:text="HOME"
+            android:text="PLANES DE ENTRENAMIENTO"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
-            android:textSize="34sp" />
+            android:textSize="24sp" />
     </LinearLayout>
 
     <Button
@@ -40,21 +48,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="50dp"
         android:width="300dp"
         android:backgroundTint="#FF9800"
-        android:text="PLANES DE SUBSCRIPCIÓN"
-        android:textColor="#000000" />
+        android:text="PLAN A"
+        android:textColor="@color/black" />
 
     <Button
         android:id="@+id/btnPlanB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="50dp"
         android:width="300dp"
         android:backgroundTint="#FF9800"
-        android:text="MI PERFIL"
+        android:text="PLAN B"
         android:textColor="#000000" />
 
     <Button
@@ -62,49 +70,29 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="50dp"
         android:width="300dp"
         android:backgroundTint="#FF9800"
-        android:text="PLANES DE ENTRENAMIENTO"
+        android:text="PLAN C"
         android:textColor="#000000" />
 
     <Button
-        android:id="@+id/btnDietaRecorte"
+        android:id="@+id/btnContratarEntrendor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="50dp"
         android:width="300dp"
         android:backgroundTint="#FF9800"
-        android:text="DIETA DE RECORTE"
-        android:textColor="#000000" />
-
-    <Button
-        android:id="@+id/btnActividades"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="40dp"
-        android:width="300dp"
-        android:backgroundTint="#FF9800"
-        android:text="ACTIVIDADES"
-        android:textColor="#000000" />
-
-    <Button
-        android:id="@+id/btnAcceso"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="40dp"
-        android:width="300dp"
-        android:backgroundTint="#FF9800"
-        android:text="ACCESO"
+        android:text="CONTRATAR PERSONAL TRAINER"
         android:textColor="#000000" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="90dp"
+        android:layout_marginTop="150dp"
         android:background="#FF9800"
+        android:backgroundTint="#FF9800"
         android:orientation="horizontal"></LinearLayout>
+
 </LinearLayout>

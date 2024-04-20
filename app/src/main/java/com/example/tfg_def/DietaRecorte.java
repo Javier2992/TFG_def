@@ -8,46 +8,45 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 
-public class Perfil extends AppCompatActivity {
+public class DietaRecorte extends AppCompatActivity {
 
-    Button invitar, informacion;
+    Button masInformacionAlta, masInformacionBaja;
     ImageButton volver;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_perfil);
+        setContentView(R.layout.activity_dieta_recorte);
         inicializarVariables();
-        invitar.setOnClickListener(new View.OnClickListener() {
+        masInformacionAlta.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Perfil.this,
-                        InvitarAmigo.class);
+                Intent intent = new Intent(DietaRecorte.this,
+                        AltaEnCalorias.class);
                 startActivity(intent);
             }
         });
-        informacion.setOnClickListener(new View.OnClickListener() {
+        masInformacionBaja.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Perfil.this,
-                        InformacionCuenta.class);
+                Intent intent = new Intent(DietaRecorte.this,
+                        BajaEnCalorias.class);
                 startActivity(intent);
             }
         });
         volver.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Perfil.this,
+                Intent intent = new Intent(DietaRecorte.this,
                         Home.class);
                 startActivity(intent);
             }
         });
     }
 
+
     private void inicializarVariables() {
-        invitar = findViewById(R.id.btnInvitar);
-        informacion = findViewById(R.id.btnInfo);
-        volver = findViewById(R.id.btnVolverPerfil);
-
-
+        masInformacionAlta = findViewById(R.id.btnMasInformacionAlta);
+        masInformacionBaja = findViewById(R.id.btnMasInformacionBaja);
+        volver = findViewById(R.id.btnVolverDieta);
     }
 }
