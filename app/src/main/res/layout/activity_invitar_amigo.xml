@@ -37,6 +37,7 @@
         android:ems="10"
         android:hint="Introduce el correo electrónico"
         android:inputType="text"
+        android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF" />
 
     <Button

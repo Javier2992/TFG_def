@@ -29,6 +29,7 @@
         android:ems="10"
         android:hint="Correo Electrónico"
         android:inputType="text"
+        android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF" />
 
     <EditText
@@ -40,6 +41,7 @@
         android:ems="10"
         android:hint="Contraseña"
         android:inputType="textPassword"
+        android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF" />
 
     <TextView

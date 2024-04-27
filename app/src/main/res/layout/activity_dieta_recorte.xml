@@ -50,7 +50,7 @@
         android:layout_marginTop="40dp"
         android:fontFamily="@font/montserrat_semibold"
         android:gravity="center"
-        android:text="Dieta alta en calorías"
+        android:text="Beneficios y Recomendaciones"
         android:textColor="#FFFFFF"
         android:textSize="18sp" />
 
@@ -81,7 +81,7 @@
         android:layout_marginTop="45dp"
         android:fontFamily="@font/montserrat_semibold"
         android:gravity="center"
-        android:text="Dieta baja en calorias"
+        android:text="Alimentos"
         android:textColor="#FFFFFF"
         android:textSize="18dp" />
 
